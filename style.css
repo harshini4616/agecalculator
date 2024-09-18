@@ -48,13 +48,22 @@ body{
 
 }
 
-.input-wapper    
-button{
+.input-wapper  button{
     width: 30%;
     float: right;
     padding: 0 20px;
+     border-radius: 50px;
+    border: none;
+    font-weight: bold;
     cursor: pointer;
-}
+    }
+ .input-wapper   button:hover{
+        background-color: hsl(0,0%,40%);
+    
+    }
+.input-wapper    button:active{
+        background-color: hsl(0,0%,50%);
+    }
 .output{
     width:100%;
     display: flex;
